@@ -6,36 +6,49 @@ body {
 }
 
 header {
-    background-color: #cc0000;
-    padding: 10px;
+    background-color: #000;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo h1 {
     color: white;
-    text-align: center;
+    margin: 0;
+    font-size: 1.2em;
 }
 
 nav {
-    background-color: #e62e00;
-    padding: 10px;
+    background-color: #cc0000;
+    padding: 10px 0;
     text-align: center;
+    position: relative;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    margin: 0 20px;
-    padding: 10px 20px;
+    margin: 0 15px;
+    padding: 10px 15px;
     background-color: #cc0000;
+    border: 1px solid white;
     border-radius: 5px;
 }
 
 .login {
-    float: right;
+    position: absolute;
+    right: 20px;
+    top: 10px;
     color: white;
+    font-weight: bold;
 }
 
 .hero {
-    background-image: url('airasia-plane.jpg'); /* Placeholder image */
+    background-image: url('plane.jpg'); /* Replace with actual image path */
     background-size: cover;
-    padding: 100px;
+    background-position: center;
+    padding: 150px 20px;
     text-align: center;
     color: white;
     position: relative;
@@ -43,13 +56,79 @@ nav a {
 
 .hero h1 {
     font-size: 3em;
-    margin: 0;
+    margin: 0 0 20px 0;
 }
 
 .book-flight {
-    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: white;
+    color: #cc0000;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 .promo-section {
     background-color: #e0e0e0;
-    pad
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.promo-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.promo-content h2 {
+    color: #cc0000;
+    font-size: 1.8em;
+}
+
+.promo-content p {
+    font-size: 1em;
+    color: #333;
+    margin: 10px 0 20px;
+}
+
+.promo-content ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+.promo-content ul li {
+    margin: 10px 0;
+    padding-left: 20px;
+    font-size: 1.1em;
+    position: relative;
+}
+
+.promo-content ul li:before {
+    content: "✔";
+    color: #ffcc00;
+    font-size: 1.3em;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+}
