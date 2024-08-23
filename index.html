@@ -3,43 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AirAsia Group Bhd</title>
+    <title>Select Cheap Flights Tickets | AirAsia</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class="header-logo">
-            <img src="logo.png" alt="AirAsia Group Bhd">
-            <h1>AirAsia Group Bhd</h1>
+        <div class="container">
+            <h1><img src="logo.png" alt="AirAsia Logo" class="logo"></h1>
+            <nav>
+                <ul>
+                    <li><a href="points.html">AirAsia Points</a></li>
+                    <li><a href="partners.html">Our Partners</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
-    <nav>
-        <a href="#">HOME</a>
-        <a href="#">FLIGHTS</a>
-        <a href="#">PLANS</a>
-        <a href="#">INVEST</a>
-        <a href="#">TEAM</a>
-        <span class="login">Login</span>
-    </nav>
-    <div class="hero">
-        <h1>AirAsia (X) Flights</h1>
-        <button class="book-flight">Book a Flight</button>
-    </div>
-    <div class="promo-section">
-        <div class="promo-content">
-            <h2>Be the first to know about flight schedules and updates!</h2>
-            <p>You can mute our server any time if you feel annoyed by our pings!</p>
-            <ul>
-                <li>Get notified of new locations and destinations</li>
-                <li>Be aware of the new seating rules and applications</li>
-                <li>First to know about flight plans</li>
-            </ul>
-            <button>Join the Discord!</button>
-        </div>
-    </div>
+
+    <main>
+        <section id="flights">
+            <div class="container">
+                <h2>Departing Flights</h2>
+                <div class="flight">
+                    <div class="flight-details">
+                        <p><strong>Flight Number:</strong> AK 6285 (A320Neo)</p>
+                        <p><strong>Date:</strong> 23 August 2024</p>
+                        <p><strong>Time:</strong> 19:00</p>
+                        <p><strong>Route:</strong> MKZ - PEN</p>
+                    </div>
+                    <a href="booking.html?flight=6285" class="button">Book Flight</a>
+                </div>
+                <div class="flight">
+                    <div class="flight-details">
+                        <p><strong>Flight Number:</strong> AK 6231 (TBC)</p>
+                        <p><strong>Date:</strong> 25 August 2024</p>
+                        <p><strong>Time:</strong> 14:30</p>
+                        <p><strong>Route:</strong> KUA - KUL</p>
+                    </div>
+                    <a href="booking.html?flight=6231" class="button">Book Flight</a>
+                </div>
+                <div class="about-airasia">
+                    <h2>About AirAsia Rblx</h2>
+                    <p>AirAsia Rblx is a virtual airline experience offering you the chance to book flights, earn rewards, and enjoy top-notch service. Our platform simulates real-world aviation, providing a fun and engaging experience for aviation enthusiasts and travelers alike.</p>
+                </div>
+                <div class="photo-gallery">
+                    <div class="photo-box">
+                        <img src="photo1.jpg" alt="Photo 1">
+                    </div>
+                    <div class="photo-box">
+                        <img src="photo2.jpg" alt="Photo 2">
+                    </div>
+                    <div class="photo-box">
+                        <img src="photo3.jpg" alt="Photo 3">
+                    </div>
+                    <div class="photo-box">
+                        <img src="photo4.jpg" alt="Photo 4">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
     <footer>
-        <div class="footer-content">
-            <p>Website Additions | Affiliations with AirAsia | Our Fleets | Our Management Team</p>
+        <div class="container">
+            <p>&copy; 2024 AirAsia. All rights reserved.</p>
         </div>
     </footer>
 </body>
